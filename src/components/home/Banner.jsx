@@ -1,5 +1,5 @@
 import React from "react";
-import video from "../../assets/video/Geothermalcore.mp4";
+// import video from "../../assets/video/Geothermalcore.mp4";
 import logo from "../../assets/img/logo-lg.png";
 import BannerVideo from "./BannerVideo";
 import ReactPlayer from "react-player";
