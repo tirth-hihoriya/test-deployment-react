@@ -1,0 +1,123 @@
+// .col20{
+//     width: 20%;
+// }
+
+.text-title {
+  margin-left: 10%;
+}
+
+.title_ {
+  h5 {
+    color: #38495d;
+    font: normal normal 800 24px/32px Muli;
+    font-family: "muli", sans-serif;
+    text-align: left;
+
+    @media (max-width: 1280px) {
+      font-size: 22px;
+      line-height: 32px;
+    }
+
+    @media (max-width: 1024px) {
+      font-size: 20px;
+      line-height: 30px;
+    }
+  }
+  p {
+    color: #3C7AC0;
+    text-align: left;
+    font: normal normal normal 16px/26px Muli;
+
+    @media (max-width: 1280px) {
+      font-size: 14px;
+      line-height: 24px;
+    }
+
+    @media (max-width: 1024px) {
+      font-size: 12px;
+      line-height: 22px;
+    }
+  }
+
+  @media (max-width: 834px) {
+    h5 {
+      color: #38495d;
+      font: normal normal 800 20px/26px Muli;
+      font-family: "muli", sans-serif;
+      text-align: left;
+    }
+    p {
+      color: #3C7AC0;
+      text-align: left;
+      font: normal normal normal 10px/26px Muli;
+    }
+  }
+}
+
+.banner_head {
+  // margin-bottom: 20px;
+  .img_left {
+    height: 500px;
+    padding-left: 8%;
+  }
+
+  .text_right {
+    h5 {
+      font: normal normal 800 38pt/54pt Muli;
+      letter-spacing: 0pt;
+      color: #38495d;
+      opacity: 1;
+      margin-bottom: 30px;
+
+      @media (max-width: 1680px) {
+        font-size: 36px;
+        line-height: 50px;
+        margin-bottom: 20px;
+      }
+
+      @media (max-width: 1024px) {
+        font-size: 28px;
+        line-height: 42px;
+      }
+    }
+    p {
+      padding-right: 5px;
+      text-align: left;
+      font: normal normal normal 14pt/25pt Muli;
+      letter-spacing: 0pt;
+      color: rgba(56, 73, 93, 0.6);
+
+      @media (max-width: 1024px) {
+        font-size: 12pt;
+        line-height: 20pt;
+      }
+    }
+  }
+}
+
+.banner-dashboard {
+  width: 100% !important;
+}
+
+.text-box {
+  p {
+    padding: 25px;
+    background: #f5f5f7 0% 0% no-repeat padding-box;
+  }
+}
+.btn {
+  // background: #3C7AC0 0% 0% no-repeat padding-box;
+  // opacity: 1;
+  // margin-top: 18px;
+  // width: 38%;
+  // padding: 10px;
+
+  p {
+    color: var(--unnamed-color-ffffff);
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+  }
+}

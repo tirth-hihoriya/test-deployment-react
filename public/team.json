@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. Jay Patel",
+        "position": "CEO",
+        "img_path": "./team/jayy.png",
+        "category": "capital"
+    },
+    {
+        "id": 2,
+        "name": "Dr. Andrew Davidoff",
+        "position": "Founder & CTO",
+        "img_path": "./team/Andrew.png",
+        "category": "capital"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Michael Shoemaker",
+        "position": "COO",
+        "img_path": "./team/Michael.png",
+        "category": "capital"
+    },
+    {
+        "id": 4,
+        "name": "Darrell Gordon",
+        "position": "CFO",
+        "img_path": "./team/Darrell.png",
+        "category": "rayalties"
+    },
+    {
+        "id": 5,
+        "name": "Mike Fenton",
+        "position": "Chief Engineer",
+        "img_path": "./team/Mike.png",
+        "category": "rayalties"
+    },
+    {
+        "id": 6,
+        "name": "Shane Quimby",
+        "position": "Compliance Officer",
+        "img_path": "./team/Shane.png",
+        "category": "rayalties"
+    },
+    {
+        "id": 7,
+        "name": "Doug Campbell",
+        "position": "Advisor",
+        "img_path": "./team/Doug.png",
+        "category": "rayalties"
+    },
+    {
+        "id": 8,
+        "name": "Frank Monachelli",
+        "position": "Financial Advisor",
+        "img_path": "./team/Frank.png",
+        "category": "rayalties"
+    },
+    {
+        "id": 9,
+        "name": "Trey Storer",
+        "position": "Business Development Advisor",
+        "img_path": "./team/treyy.png",
+        "category": "e&p"
+    },
+    {
+        "id": 10,
+        "name": "Mohan Anem",
+        "position": "International Operations Advisor",
+        "img_path": "./team/Mohan.png",
+        "category": "e&p"
+    },
+    {
+        "id": 11,
+        "name": "Manish Mishra",
+        "position": "International Operations Advisor",
+        "img_path": "./team/manish.png",
+        "category": "e&p"
+    }
+    // {
+    //     "id": 12,
+    //     "name": "Shannon Caraway",
+    //     "position": "International Operations Advisor",
+    //     "img_path": "./team/shannon.png",
+    //     "category": "e&p"
+    // }
+]

@@ -1,0 +1,73 @@
+.investor-form {
+    padding-inline: 200px;
+    padding-block: 100px;
+}
+
+.form {
+    &-wrap {
+        background: $gray-200;
+        padding: 60px 45px;
+
+        @media (max-width: 1024px) {
+            padding: 50px 35px;
+        }
+    }
+
+    &-label {
+        margin-bottom: 10px;
+        @include form-text;
+    }
+
+    &-control {
+        border-radius: 0;
+        border: none;
+        outline: none;
+        box-shadow: none;
+        background: $white;
+        padding: 24px 20px;
+        @include form-text;
+
+        @media (max-width: 1024px) {
+            padding: 20px 16px;
+        }
+
+        @media (max-width: 768px) {
+            padding: 15px 12px;
+        }
+
+        &:focus {
+            box-shadow: none;
+        }
+
+        &::placeholder {
+            opacity: 0.35;
+        }
+    }
+}
+
+.submit-btn {
+    background: #3C7AC0;
+    @include form-text;
+    color: $white;
+    border-radius: 0;
+    font-size: 16px;
+
+    @media (max-width: 1680px){
+        font-size: 18px;
+        line-height: 26px;
+    }
+
+
+    @media (max-width: 1024px) {
+        padding: 20px 51px;
+    }
+
+    @media (max-width: 768px) {
+        padding: 15px 45px;
+    }
+
+    // &:hover {
+    //     background: $dark;
+    //     color: $white;
+    // }
+}

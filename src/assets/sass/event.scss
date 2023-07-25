@@ -1,0 +1,232 @@
+.eventWrapper {
+  .primary-bg-heading {
+    padding-inline: 0px;
+  }
+  li {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 45px;
+    /* or 193% */
+
+    color: #161616;
+
+    opacity: 0.7;
+  }
+  .content {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 28px;
+    opacity: 0.7;
+  }
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 2.46354px;
+    text-transform: uppercase;
+    margin-top: 100px;
+  }
+  .blog {
+    margin-bottom: 100px;
+    .place {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+
+      color: #77abd2;
+      margin-top: 20px;
+    }
+    .blog-title {
+      font-weight: 500;
+      font-size: 20px;
+      line-height: 26px;
+      /* or 130% */
+
+      letter-spacing: 0.0185em;
+
+      /* Primary */
+
+      color: #011934;
+      margin-top: 0px;
+    }
+    .date {
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 19px;
+      display: flex;
+      align-items: center;
+
+      color: #133f69;
+
+      opacity: 0.8;
+      margin: 15px 0px;
+      span {
+        flex: 1;
+        text-align: right;
+      }
+    }
+    .blog-card {
+      background: #ffffff;
+      border: 1px solid #d1d1d1;
+      box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.06);
+      padding: 15px;
+      margin-top: 60px;
+      cursor: pointer;
+    }
+  }
+}
+.eventDetailsWrapper {
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 49px;
+    letter-spacing: 2.46354px;
+    text-transform: uppercase;
+    margin-top: 10px;
+  }
+  .bannerEvent {
+    margin-top: 90px;
+    height: 500px;
+    background-image: url(../img/eventDetails1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    .logo {
+      margin-top: 90px;
+      margin-bottom: 50px;
+    }
+    h2 {
+      font-weight: 400;
+      font-size: 30px;
+      line-height: 42px;
+      /* or 120% */
+
+      color: #ffffff;
+    }
+    .register {
+      margin-top: 50px;
+      a {
+        width: 353px;
+        height: 84px;
+        left: 145px;
+        top: 762px;
+        background: #77abd2;
+        padding: 17px 43px;
+        font-size: 17px;
+        margin-top: 46px;
+        color: #fff;
+      }
+    }
+  }
+  .event-card {
+    background: #0a3e68;
+    opacity: 0.9;
+    box-shadow: 0px 15px 55px rgba(0, 0, 0, 0.06);
+    margin-top: 90px;
+    display: inline-block;
+    padding: 20px;
+    float: right;
+    p {
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 26px;
+      /* identical to box height, or 130% */
+
+      letter-spacing: 0.1em;
+
+      color: #7babd3;
+    }
+    h3 {
+      color: #fff;
+      font-size: 23px;
+      border-bottom: 1px solid #7babd3;
+
+      padding-bottom: 20px;
+      margin-bottom: 18px;
+    }
+    .location {
+      border: none;
+      margin: 0px;
+      padding: 0px;
+    }
+  }
+  .keyspeaker {
+    p {
+      font-weight: 300;
+      font-size: 14px;
+      line-height: 17px;
+      color: #011934;
+      margin-top: 10px;
+      span {
+        font-size: 12px;
+      }
+    }
+  }
+  .accordion-button {
+    background: transparent;
+  }
+  .accordion-button:focus {
+    outline: none !important;
+  }
+  .accordion-item {
+    border: none;
+    border-bottom: 1px solid rgba(123, 171, 211, 1);
+  }
+  
+  .image-card {
+    background: #deebf4;
+    text-align: center;
+    padding-top: 20px;
+    margin-bottom: 30px;
+    .image-title {
+      font-weight: 700;
+      font-size: 18px;
+      line-height: 40px;
+      letter-spacing: 2.46354px;
+      text-transform: uppercase;
+      color: rgba(10, 62, 104, 1);
+    }
+    .desigination {
+      font-weight: 300;
+      font-size: 20px;
+      line-height: 24px;
+      text-align: center;
+      padding-bottom: 20px;
+      /* Primary */
+
+      color: #011934;
+    }
+  }
+  .image-card-2{
+    text-align: left;
+    padding: 20px;
+    .image-title{
+      line-height: 22px;
+    }
+    .contact{
+      margin-bottom: 20px;
+      align-items: center;
+    }
+    .contact-details{
+      margin-left: 12px;
+    }
+  }
+}
+.flex{
+  display: flex;
+}
+.partner{
+  img{
+    width: 206px;
+    margin: 10px;
+    padding: 18px;
+  }
+}
+.mt-125{
+  margin-top: 125px;
+}

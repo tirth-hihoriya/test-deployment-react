@@ -1,0 +1,61 @@
+.brief {
+    &-section {
+        @include padding-x;
+        background-image: url(../img/brief-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    &-content-wrap {
+        padding: 74px;
+        background: rgba($color: $dark, $alpha: 0.85);
+        height: 100%;
+
+        @media (max-width: 1600px) {
+            padding: 50px;
+        }
+    }
+
+    &-text {
+        font-weight: 700;
+        font-size: 34px;
+        line-height: 52px;
+        color: $white;
+        margin-bottom: 32px;
+
+        @media (max-width: 1600px) {
+            font-size: 30px;
+            line-height: 52px;
+        }
+
+        @media (max-width: 992px) {
+            font-size: 18px;
+            line-height: 35px;
+        }
+    }
+
+    &-img {
+        height: 100%;
+
+        @media (max-width: 992px) {
+            height: 100%;
+            width: 100%;
+        }
+    }
+}
+
+.img-wrap {
+    height: 100%;
+    overflow: hidden;
+}
+.esgBrief{
+    background-image: url(../img/esgBried.png) !important;
+
+}
+.filter-search{
+    border: 1px solid !important;
+    padding: 4px !important;
+    border-radius: 39px !important;
+    padding-left: 12px !important;
+}

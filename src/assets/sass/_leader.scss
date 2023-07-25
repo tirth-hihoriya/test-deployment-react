@@ -1,0 +1,134 @@
+.leader {
+    &-content, &-wrap {
+        @include padding-x;
+    }
+
+    &-heading {
+        font-size: 32px;
+        line-height: 53px;
+        margin-bottom: 30px;
+
+        @media (max-width: 1440px) {
+            font-size: 28px;
+            line-height: 48px;
+            margin-bottom: 20px;
+        }
+
+        @media (max-width: 1280px) {
+            font-size: 24px;
+            line-height: 42px;
+        }
+
+        @media (max-width: 768px) {
+            font-size: 22px;
+            line-height: 40px;
+        }
+
+        @media (max-width: 560px) {
+            font-size: 20px;
+            line-height: 38px;
+            margin-bottom: 10px;
+        }
+    }
+
+    &-text {
+        font-size: 20px;
+        line-height: 30px;
+
+        @media (max-width: 1440px) {
+            font-size: 18px;
+            line-height: 28px;
+        }
+
+        @media (max-width: 1280px) {
+            font-size: 14px;
+            line-height: 24px;
+        }
+    }
+
+    &-card {
+        display: flex;
+        padding: 45px;
+        background: $gray-200;
+        column-gap: 30px;
+
+        @media (max-width: 1680px) {
+            padding: 40px;
+        }
+
+        @media (max-width: 1440px) {
+            column-gap: 25px;
+        }
+
+        @media (max-width: 1280px) {
+            flex-direction: column;
+            row-gap: 30px;
+        }
+
+        @media (max-width: 768px) {
+            padding: 30px;
+            row-gap: 20px;
+        }
+
+        &:first-of-type {
+            margin-bottom: 60px;
+        }
+
+        &:last-of-type {
+            @media (max-width: 1280px) {
+                flex-direction: column-reverse;
+            }
+        }
+    }
+
+    &-img {
+        width: 285px;
+
+        @media (max-width: 1680px) {
+            width: 290px;
+        }
+
+        @media (max-width: 1280px) {
+            width: 250px;
+        }
+
+        @media (max-width: 560px) {
+            width: 180px;
+        }
+    }
+
+    &-para {
+        font-size: 16px;
+        line-height: 26px;
+        margin-bottom: 35px;
+
+        @media (max-width: 1680px) {
+            margin-bottom: 25px;
+        }
+    }
+
+    &-name {
+        font-size: 30px;
+        line-height: 36px;
+        color: $primary;
+        margin-bottom: 5px;
+
+        @media (max-width: 1680px) {
+            font-size: 26px;
+            line-height: 32px;
+            margin-bottom: 2px;
+        }
+    }
+
+    &-position {
+        font-size: 16px;
+        line-height: 23px;
+        text-transform: uppercase;
+        color: $primary;
+
+        @media (max-width: 1680px) {
+            font-size: 14px;
+            line-height: 21px;
+        }
+    }
+}

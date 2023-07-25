@@ -1,0 +1,33 @@
+export {default as Home} from './home';
+export {default as About} from './aboutUs';
+export {default as Technology} from './technology';
+export {default as DrySteam} from './technologyDetail/DrySteam';
+export {default as FlashSteam} from './technologyDetail/FlashSteam';
+export {default as BinaryPlant} from './technologyDetail/BinaryPlant';
+export {default as TeamPage} from './teamPage';
+export {default as Contact} from './contact';
+export {default as PortfolioPartner} from './portfolioPartners';
+export {default as News} from './news';
+export {default as ESG} from './esg';
+export {default as Advantages} from './advantages';
+export {default as Investor} from './investor';
+export {default as LeadingProgram} from './leadingProgram';
+export {default as EventPage} from './event';
+export {default as EventDetailPage} from './event/EventDetails';
+export {default as RegisterEvent} from './event/RegisterEvent'
+export {default as Login} from './admin/login';
+export {default as EventList} from './admin/dashboard/eventList';
+export {default as Dashboard} from './admin/dashboard';
+export {default as AddEvent} from './admin/dashboard/AddEvent';
+export {default as BlogList} from './admin/dashboard/blogList';
+export {default as CookiePolicy} from './terms/CookiePolicy';
+export {default as OurPortfolio} from './ourPortfolio';
+export {default as DashboardPage} from './DashboardPage';
+export {default as Orc} from './orc';
+export {default as Scicat} from './scicat';
+export {default as Advancing} from './advancing';
+export {default as Insights} from './insights';
+export {default as Aboutus} from './about';
+export {default as ContactUs} from './contactUs';
+
+

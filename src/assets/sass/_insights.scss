@@ -1,0 +1,37 @@
+.insight {
+    &-section {
+        @include padding-x;
+        padding-block: 93px;
+        background: $gray-200;
+
+        @media (max-width: 992px) {
+            padding-block: 70px;
+        }
+    }
+
+    &-title {
+        font-weight: 700;
+        font-size: 30px;
+        line-height: 46px;
+        color: $gray-100;
+        text-align: center;
+
+        @media (max-width: 992px) {
+            font-size: 25px;
+            line-height: 42px;
+        }
+    }
+
+    &-desc {
+        font-size: 22px;
+        line-height: 34px;
+        color: rgba($color: $gray-100, $alpha: 0.5);
+        text-align: center;
+        margin-top: 20px;
+
+        @media (max-width: 992px) {
+            font-size: 18px;
+            line-height: 28px;
+        }
+    }
+}

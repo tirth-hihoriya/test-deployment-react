@@ -1,0 +1,296 @@
+@mixin zero-sizing {
+  padding: 0;
+  margin: 0;
+}
+
+@mixin outfit {
+  font-family: "Outfit", sans-serif;
+}
+
+@mixin secondary-font {
+  font-family: orpheuspro, serif;
+}
+
+@mixin cursive-font {
+  font-family: "hello-valentina";
+}
+
+@mixin custome-font {
+  font-family: "Muli";
+}
+
+@mixin padding-y {
+  padding-block: 140px;
+
+  @media (max-width: 1600px) {
+    padding-block: 125px;
+  }
+
+  @media (max-width: 992px) {
+    padding-block: 70px;
+  }
+}
+
+@mixin padding-x {
+  padding-inline: 375px;
+
+  @media (max-width: 1600px) {
+    padding-inline: 325px;
+  }
+
+  @media (max-width: 1440px) {
+    padding-inline: 245px;
+  }
+
+  @media (max-width: 1200px) {
+    padding-inline: 145px;
+  }
+
+  @media (max-width: 992px) {
+    padding-inline: 125px;
+  }
+
+  @media (max-width: 820px) {
+    padding-inline: 90px;
+  }
+
+  @media (max-width: 560px) {
+    padding-inline: 30px;
+  }
+}
+
+@mixin padding-left {
+  padding-left: 375px;
+
+  @media (max-width: 1600px) {
+    padding-left: 325px;
+  }
+
+  @media (max-width: 1440px) {
+    padding-left: 245px;
+  }
+
+  @media (max-width: 1200px) {
+    padding-left: 145px;
+  }
+
+  @media (max-width: 992px) {
+    padding-left: 125px;
+  }
+
+  @media (max-width: 820px) {
+    padding-left: 90px;
+  }
+
+  @media (max-width: 560px) {
+    padding-left: 30px;
+  }
+}
+
+@mixin form-text {
+  font-size: 22px;
+  line-height: 28px;
+
+  @media (max-width: 1680px) {
+    font-size: 20px;
+    line-height: 26px;
+  }
+
+  @media (max-width: 1280px) {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  @media (max-width: 820px) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+}
+
+@mixin padding-x-140 {
+  padding-inline: 140px;
+
+  @media (max-width: 1440px) {
+    padding-inline: 100px;
+  }
+
+  @media (max-width: 1024px) {
+    padding-inline: 85px;
+  }
+
+  @media (max-width: 820px) {
+    padding-inline: 70px;
+  }
+
+  @media (max-width: 620px) {
+    padding-inline: 40px;
+  }
+}
+
+.terms {
+  @include padding-x-140;
+
+  li {
+    margin-left: 20px;
+  }
+
+  margin: 150px auto;
+
+  h2 {
+    text-align: center;
+    margin: 20px;
+  }
+
+  p {
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 18px;
+    line-height: 28px;
+  }
+}
+
+.banner-wrap {
+  .banner-content {
+    height: 96%;
+    padding: 0px;
+  }
+
+  .banner-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    z-index: -1;
+  }
+
+  .banner-content-contact {
+    height: 100%;
+    padding: 0px;
+    background: #111111d0;
+    width: 50%;
+
+    .aos-init {
+      height: 100%;
+      display: flex;
+      align-items: center;
+    }
+
+    @media (max-width: 820px) {
+      width: 100%;
+    }
+
+    // @media (max-width: 2100px) {
+    //     height: 100%;
+    // }
+    // @media (max-width: 1900px) {
+    //     height: 99%;
+    // }
+    // @media (max-width: 1810px) {
+    //     height: 100%;
+    // }
+    // @media (max-width: 1750px) {
+    //     height: 100%;
+    // }
+    // @media (max-width: 1510px) {
+    //     height: 100%;
+    // }
+    // @media (max-width: 1398px) {
+    //     height: 77%;
+    // }
+    // @media (max-width: 1230px) {
+    //     height: 68%;
+    // }
+
+    // @media (max-width: 1700px) {
+    //     height: 94%;
+    // }
+    // @media (max-width: 1600px) {
+    //     height: 88%;
+    // }
+  }
+}
+
+.sidebar-link {
+  font-family: "Outfit" !important;
+}
+
+@media screen and (max-width: 600px) {
+  .banner-wrap {
+    background: #000;
+
+    .banner-content {
+      height: 45%;
+    }
+  }
+
+  .plant-section {
+    padding-bottom: 4px !important;
+  }
+
+  .info-section {
+    height: 320px;
+    padding: 60px 40px;
+    background: #000 !important;
+    height: unset !important;
+
+    .info-text {
+      padding: 3px;
+    }
+  }
+}
+
+.banner-text-top {
+  //   width: 76%;
+  margin: auto;
+  padding: 0 140px 0 125px;
+  //   margin-top: 31%;
+
+  @media (max-width: 1024px) {
+    padding: 0 85px 0 60px;
+  }
+  p {
+    font: normal normal normal 28px/30px Muli;
+    letter-spacing: 0px;
+    color: #73D9FF;
+    opacity: 1;
+
+    @media (max-width: 1680px) {
+      font-size: 24px;
+    }
+
+    @media (max-width: 1440px) {
+      font-size: 18px;
+    }
+
+    @media (max-width: 620px) {
+      font-size: 14px;
+    }
+  }
+
+  h5 {
+    font: normal normal bold 54px/74px Muli;
+    letter-spacing: 0px;
+    color: #ffffff;
+    opacity: 1;
+
+    @media (max-width: 1680px) {
+      font-size: 50px;
+      line-height: 70px;
+    }
+
+    @media (max-width: 1440px) {
+      font-size: 38px;
+      line-height: 58px;
+    }
+
+    @media (max-width: 1024px) {
+      font-size: 32px;
+      line-height: 52px;
+    }
+
+    @media (max-width: 620px) {
+      font-size: 24px;
+      line-height: 44px;
+    }
+  }
+}
